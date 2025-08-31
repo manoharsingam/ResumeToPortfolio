@@ -29,6 +29,7 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 lerna-debug.log*
 
 # Diagnostic reports
@@ -49,6 +50,25 @@ pids
 .stylelintcache
 .node_repl_history
 
+# Coverage and testing
+lib-cov
+coverage
+*.lcov
+.nyc_output
+.grunt
+
+# Bower / JSPM / Snowpack
+bower_components
+jspm_packages/
+web_modules/
+
+# Node-waf / compiled binaries
+.lock-wscript
+build/Release
+
+# Output of 'npm pack'
+*.tgz
+
 # Yarn
 .yarn-integrity
 .yarn/*
@@ -60,8 +80,6 @@ pids
 .pnp.*
 
 # Parcel / Vite / Vitepress / Svelte / Vue / Next / Nuxt / Gatsby caches
-.cache
-.parcel-cache
 .vitepress
 .vscode-test
 vite.config.js.timestamp-*
