@@ -1,3 +1,71 @@
+# Node.js dependencies
 node_modules/
+
+# Build output
 dist/
+out/
+.next
+.nuxt
+.cache/
+.parcel-cache
+.vuepress/dist
+.svelte-kit/
+**/.vitepress/dist
+**/.vitepress/cache
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+.firebase/
+.tern-port
+
+# Environment files
 .env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional caches
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+
+# Yarn
+.yarn-integrity
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Parcel / Vite / Vitepress / Svelte / Vue / Next / Nuxt / Gatsby caches
+.cache
+.parcel-cache
+.vitepress
+.vscode-test
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Backend uploads folder
+backend/uploads/
